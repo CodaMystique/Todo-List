@@ -5,7 +5,9 @@
     "moduleResolution": "NodeNext",
     "baseUrl": ".",
     "outDir": "dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   },
   "include": ["src/**/*"]
 }

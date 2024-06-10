@@ -9,5 +9,5 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["src/**/*", "api/*.ts"]
+  "include": ["src/**/*", "./api/*.ts"]
 }

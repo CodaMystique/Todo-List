@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
-    "start": "node ./dist/app.js",
+    "dev": "nodemon ./src/index.ts",
+    "start": "ts-node ./src/index.ts",
     "build": "tsc",
     "vercel-build": "echo hello_i_am_running"
   },
